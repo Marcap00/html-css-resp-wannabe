@@ -1,7 +1,10 @@
 .container {
     max-width: 1140px;
+    width: auto;
     margin: 0 auto;
 }
+
+
 /* From 768px to down */
 
 @media screen and (max-width: 768px) {
@@ -14,11 +17,19 @@
 /* From 576px to down */
 @media screen and (max-width: 576px) {
     
+    section {
+        padding: 3rem 0;
+    }
+    
+    .steps, .why-us {
+        margin: 0;
+    }
+
     .container {
         max-width: 470px;
         padding: 0;
     }
-
+    
     .row {
         flex-direction: column;
         align-items: center;
