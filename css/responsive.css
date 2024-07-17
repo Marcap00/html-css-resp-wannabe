@@ -1,4 +1,6 @@
-
+.container {
+    max-width: 1140px
+}
 /* From 768px to down */
 
 @media screen and (max-width: 768px) {
@@ -8,6 +10,7 @@
     }
 }
 
+/* From 576px to down */
 @media screen and (max-width: 576px) {
     
     .container {
